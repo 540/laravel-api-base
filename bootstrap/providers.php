@@ -1,6 +1,6 @@
 <?php
 
 return [
-    laravelApiBase\mail\MailServiceProvider::class,
-    laravelApiBase\sms\SmsServiceProvider::class,
+    laravelApiBase\boundedContext1\BoundedContext1ServiceProvider::class,
+    laravelApiBase\boundedContext2\BoundedContext2ServiceProvider::class,
 ];

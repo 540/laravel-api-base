@@ -1,10 +1,10 @@
 <?php
 
-namespace laravelApiBase\mail;
+namespace laravelApiBase\boundedContext1;
 
 use Illuminate\Support\ServiceProvider;
 
-class MailServiceProvider extends ServiceProvider
+class BoundedContext1ServiceProvider extends ServiceProvider
 {
     public function register(): void
     {

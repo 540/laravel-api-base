@@ -6,7 +6,10 @@ use Illuminate\Foundation\Configuration\Middleware;
 
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
-        web: __DIR__.'/../routes/web.php',
+        web: [
+            __DIR__.'/../laravelApiBase/boundedContext1/Api/Routes/BoundedContext1Routes.php',
+            __DIR__.'/../laravelApiBase/boundedContext2/Api/Routes/BoundedContext2Routes.php',
+        ],
         commands: __DIR__.'/../routes/console.php',
         health: '/up',
     )

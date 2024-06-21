@@ -1,10 +1,10 @@
 <?php
 
-namespace laravelApiBase\sms;
+namespace laravelApiBase\boundedContext2;
 
 use Illuminate\Support\ServiceProvider;
 
-class SmsServiceProvider extends ServiceProvider
+class BoundedContext2ServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
