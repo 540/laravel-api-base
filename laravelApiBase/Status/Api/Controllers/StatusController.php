@@ -1,12 +1,12 @@
 <?php
 
-namespace laravelApiBase\statusEndpoint\api\controllers;
+namespace laravelApiBase\Status\Api\Controllers;
 
 
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
-class statusController
+class StatusController
 {
 
     public function __construct()

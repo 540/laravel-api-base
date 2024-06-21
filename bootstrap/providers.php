@@ -1,6 +1,6 @@
 <?php
 
 return [
-    laravelApiBase\statusEndpoint\StatusEndpointServiceProvider::class,
-    laravelApiBase\boundedContext2\BoundedContext2ServiceProvider::class,
+    laravelApiBase\Status\StatusServiceProvider::class,
+    laravelApiBase\BoundedContext2\BoundedContext2ServiceProvider::class,
 ];
