@@ -1,6 +1,6 @@
 <?php
 
-namespace laravelApiBase\boundedContext1\api\controllers;
+namespace laravelApiBase\statusEndpoint\api\controllers;
 
 
 use Illuminate\Http\JsonResponse;

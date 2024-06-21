@@ -1,6 +1,6 @@
 <?php
 
-namespace laravelApiBase\boundedContext1\tests;
+namespace laravelApiBase\statusEndpoint\tests;
 
 use PHPUnit\Framework\Attributes\Test;
 use Tests\TestCase;
