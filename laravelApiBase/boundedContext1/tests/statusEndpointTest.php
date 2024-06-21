@@ -10,7 +10,7 @@ class statusEndpointTest extends TestCase
     #[test]
     public function checkStatusOk(): void
     {
-        $response = $this->get("/boundedContext1");
+        $response = $this->get("/statusEndpoint");
 
         $response->assertStatus(200);
 
