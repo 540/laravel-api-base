@@ -1,6 +1,6 @@
 <?php
 
-namespace laravelApiBase\boundedContext2;
+namespace laravelApiBase\BoundedContext2;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ class BoundedContext2ServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        $this->loadRoutesFrom(__DIR__ . '/api/routes/BoundedContext2Routes.php');
+        $this->loadRoutesFrom(__DIR__ . '/Api/Routes/BoundedContext2Routes.php');
     }
 
     public function register(): void
