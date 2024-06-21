@@ -7,8 +7,8 @@ use Illuminate\Foundation\Configuration\Middleware;
 return Application::configure(basePath: dirname(__DIR__))
     ->withRouting(
         web: [
-            __DIR__.'/../laravelApiBase/boundedContext1/Api/Routes/BoundedContext1Routes.php',
-            __DIR__.'/../laravelApiBase/boundedContext2/Api/Routes/BoundedContext2Routes.php',
+            __DIR__.'/../laravelApiBase/boundedContext1/api/routes/BoundedContext1Routes.php',
+            __DIR__.'/../laravelApiBase/boundedContext2/api/routes/BoundedContext2Routes.php',
         ],
         health: '/up',
     )
