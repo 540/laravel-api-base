@@ -15,7 +15,6 @@ class statusEndpointTest extends TestCase
         $response->assertStatus(200);
 
         $expectedResponse = '{"status":"ok"}';
-
         $response->assertContent($expectedResponse);
     }
 }
