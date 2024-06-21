@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use laravelApiBase\statusEndpoint\api\controllers\statusController;
 
-Route::get(
-    '/statusEndpoint',
-    [\laravelApiBase\statusEndpoint\api\controllers\statusController::class, '__invoke']
-);
+Route::get('/status', statusController::class)
+    ->name('status');

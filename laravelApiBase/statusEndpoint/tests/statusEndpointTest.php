@@ -10,7 +10,7 @@ class statusEndpointTest extends TestCase
     #[test]
     public function checkStatusOk(): void
     {
-        $response = $this->get("/statusEndpoint");
+        $response = $this->get(route("status"));
 
         $response->assertStatus(200);
 
