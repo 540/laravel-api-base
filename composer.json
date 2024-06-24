@@ -5,7 +5,7 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.2",
+        "php": "^8.3",
         "laravel-doctrine/extensions": "^1.7",
         "laravel-doctrine/orm": "2.1.0",
         "laravel/framework": "^11.0",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "laravelApiBase\\": "laravelApiBase/",
+            "Laravel\\": "laravel/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }

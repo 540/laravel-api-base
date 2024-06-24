@@ -1,6 +1,6 @@
 <?php
 
-namespace laravelApiBase\BoundedContext2;
+namespace Laravel\BoundedContext2;
 
 use Illuminate\Support\ServiceProvider;
 

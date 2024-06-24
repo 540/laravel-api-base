@@ -1,6 +1,6 @@
 <?php
 
-namespace laravelApiBase\Status;
+namespace Laravel\Status;
 
 use Illuminate\Support\ServiceProvider;
 
