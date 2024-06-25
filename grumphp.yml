@@ -23,7 +23,7 @@ grumphp:
       config: rector.php
       no_diffs: false
     phpcs:
-      standard: PSR12
+      standard: ['phpcs.xml']
     phpcsfixer:
       config: .php-cs-fixer.dist.php
       allow_risky: true
