@@ -13,6 +13,5 @@ class BoundedContext2ServiceProvider extends ServiceProvider
 
     public function register(): void
     {
-
     }
 }

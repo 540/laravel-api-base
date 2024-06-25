@@ -2,13 +2,11 @@
 
 namespace Laravel\Status\Api\Controllers;
 
-
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 
 class StatusController
 {
-
     public function __construct()
     {
     }
@@ -17,5 +15,4 @@ class StatusController
     {
         return response()->json(['status' => 'ok']);
     }
-
 }
